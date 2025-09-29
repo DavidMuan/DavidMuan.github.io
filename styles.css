@@ -1,0 +1,131 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1px 0px;
+    padding: 50px;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.image-grid img {
+border-radius: 15px;        
+  display: block;             
+  max-width: 100%;            
+  height: auto;    
+}
+
+nav {
+    background-color: aliceblue;
+    box-shadow: 2px 2px 5px grey;
+}
+
+.nav_president_icon {
+    font-weight: bold;
+    font-size: 15px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.nav_president_icon img {
+    width: 40px;
+    height: auto;
+}
+
+nav ul {
+    width: 100%;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+nav li {
+    height: 50px;
+}
+
+nav a {
+    padding: 0 30px;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+nav li:first-child {
+    margin-right: auto;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Georgia';
+    font-size: 48px;
+    margin-top: 20px;
+}
+
+.p_info {
+    width: 60%;
+    margin: auto;
+}
+
+.p_info p {
+    font-family: 'Georgia';
+    font-size: 20px;
+}
+
+.image-grid img {
+    width: 250px;
+    height: 500px;
+    object-fit: cover;
+    display: block;
+    border: 3px solid black;
+}
+
+.image-grid a {
+    text-decoration: none;
+}
+
+.image-grid h3 {
+    font-family: 'Georgia';
+    text-align: center;
+}
+
+.image-container {
+  text-align: center; 
+  margin: 2rem 0;     
+}
+
+.image-container img {
+  max-width: 400px;    
+  height: auto;
+  border-radius: 8px;  
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2); 
+}
+
+.quote {
+  font-style: italic;
+  font-size: 1.3rem;
+  color: #444;
+  border-left: 4px solid #002855;
+  padding-left: 1rem;
+  margin: 2rem auto;
+  max-width: 800px;
+}
+
+.quote span {
+  display: block;
+  font-size: 1rem;
+  font-style: normal;
+  text-align: right;
+  color: #002855;
+  margin-top: 0.5rem;
+}
