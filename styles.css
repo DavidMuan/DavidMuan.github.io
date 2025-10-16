@@ -75,11 +75,40 @@ h1 {
 .p_info {
     width: 60%;
     margin: auto;
+    padding-bottom: 4%;
 }
 
 .p_info p {
     font-family: 'Georgia';
     font-size: 20px;
+}
+
+.p_about {
+    width: 80%;
+    margin: auto;
+}
+
+.p_about h1 {
+    padding-bottom: 4%;
+}
+
+.p_about p {
+    font-family: 'Georgia';
+    font-size: 18px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.p_about li {
+    font-family: 'Georgia';
+    font-size: 16px;
+    padding-bottom: 4%;
+}
+
+.p_about img {
+    display: block;
+    margin: auto;
+    padding-bottom: 4%;
 }
 
 .image-grid img {
